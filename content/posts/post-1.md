@@ -19,11 +19,9 @@ At that point, we at IMG decided to build something to solve the above-mentioned
 
 ### Yii + Apache2 + PostgreSQL
 
-_Yii is a fast, secure, and efficient PHP framework. Flexible yet pragmatic. Works right out of the box._
-
-_Apache2 provides a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards._
-
-_PostgreSQL is a powerful, open source object-relational database system._
+- _Yii is a fast, secure, and efficient PHP framework. Flexible yet pragmatic. Works right out of the box._ \
+- _Apache2 provides a secure, efficient and extensible server that provides HTTP services in sync with the current HTTP standards._ \
+- _PostgreSQL is a powerful, open source object-relational database system._
 
 ### Git
 To maintain the source code?
@@ -41,7 +39,7 @@ RabbitMQ is used to maintain publish requests and push changes in production.
 ### It's static!
 
 The website, https://www.iitr.ac.in, that everyone sees is static, just HTML pages. \
-**Then how do you update them? - ** There comes the role of CMS, In CMS one can update the content, then CMS will take care of generating HTML pages and pushing those static pages on production.
+**Then how do you update them? -- **  There comes the role of CMS, In CMS one can update the content, then CMS will take care of generating HTML pages and pushing those static pages on production.
 ### Database: The tree structure
 The entire website has been stored in the form of a tree structure. The nodes of the tree can be either a special node, which stores some metadata for pages present as a child under that special node or node can be a page. 
 
